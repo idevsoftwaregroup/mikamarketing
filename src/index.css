@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css or src/App.css */
+@font-face {
+    font-family: 'MIKA';
+    src: url('../public/fonts/MIKA-Bold.ttf') format('truetype'),
+         url('../public/fonts/MIKA-Light.ttf') format('woff'),
+         url('../public/fonts/MIKA-Regular.ttf') format('woff'),
+         url('../public/fonts/MIKA-SemiBold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MIKA', sans-serif;
+}
